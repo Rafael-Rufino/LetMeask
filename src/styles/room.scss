@@ -10,7 +10,15 @@
       justify-content:space-between;
       align-items:center;
       > img{
-        max-width: 45px;
+        max-width: 5em;
+      }
+      > div{
+        display: flex;
+        gap: 1rem;
+
+        button{
+          height:40px;
+        }
       }
     }
   }
@@ -88,12 +96,32 @@
             font-weight:500;
             cursor: pointer;
 
+            
+
           }
         }
     }
 
     }
 
+    .question-list{
+      margin-top: 32px;
+    }
+
+  }
+  .rodape{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    text-align: center;
+    color: #737380;
+    height: 50px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0,0.04);
+    border-top: 1px solid #e2e2e2;
+
+    p{
+      margin-top: 1.6rem;
+    }
   }
 
 }
