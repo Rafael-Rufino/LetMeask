@@ -123,12 +123,12 @@ export function AdminRoom(){
         </div>
     
       </main>
-      <div className = "rodape">
+      {/* <div className = "rodape">
       <footer >
         <p>@copyright (c)</p>
       </footer>
         
-      </div>
+      </div> */}
     
     </div>
 
